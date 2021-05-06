@@ -1,0 +1,16 @@
+package characters;
+
+public class weapons{
+	
+	String weapon;
+	int damage;
+	public weapons(String weapon, int damage) {
+		this.weapon = weapon;
+		this.damage = damage;
+	}
+	public String toString(){
+		return "Son arme : " + weapon + ", Ses dégats : " + damage;
+	}
+	
+	
+}

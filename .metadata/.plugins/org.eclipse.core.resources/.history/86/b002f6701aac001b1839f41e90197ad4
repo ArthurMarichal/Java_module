@@ -1,0 +1,5 @@
+package characters;
+public class weapons{
+	private String name;
+	private int attack;
+}

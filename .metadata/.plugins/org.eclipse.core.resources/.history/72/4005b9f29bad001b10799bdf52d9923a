@@ -1,0 +1,13 @@
+package characters;
+
+public class weapons{
+	
+	String weapon;
+	int damage;
+	public void sword() {
+		
+	}
+	
+	
+	
+}

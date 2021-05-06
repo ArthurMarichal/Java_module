@@ -1,0 +1,25 @@
+package characters;
+public class mage{
+	
+	private int life;
+	private int attack;
+	private String image;
+	private String name ;
+
+	public mage() {
+		super();
+	}
+
+	public mage(String name) {
+		super();
+		this.name = name;
+	}
+
+	public mage(int life, int attack, String image, String name) {
+		super();
+		this.life = life;
+		this.attack = attack;
+		this.image = image;
+		this.name = name;
+	}
+}

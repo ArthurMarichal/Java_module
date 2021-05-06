@@ -1,0 +1,15 @@
+package déménageur;
+public class déménageur {
+	public static void main(String[] args) {
+	int boxes = 34;
+	int truck = 9;
+	while (boxes >= truck) {
+		boxes = boxes - truck;
+		System.out.println("Un voyage de " +boxes+ " cartons");
+		}
+	if (boxes > 0) {
+		boxes = truck % boxes ;
+		System.out.println("Un voyage de " +boxes+ " cartons");
+	}
+	}
+}

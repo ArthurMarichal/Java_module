@@ -1,0 +1,61 @@
+package characters;
+
+import java.util.Random;
+
+public class war {
+
+	private int life;
+	private int attack;
+	private String image;
+	private String name;
+	private weapons weapon; 
+	int healthMin;
+	int healthMax;
+	int powerMin;
+	int powerMax;
+
+	public war() {
+		super();
+	}
+
+	public war(String name) {
+		super();
+		this.name = name;
+	}
+
+	public war(String name, int life, int attack,weapons weapon, String image ) {
+		super();
+		this.life = life;
+		this.attack = attack;
+		this.image = image;
+		this.name = name;
+		this.weapon = weapon;
+	}
+
+	public String toString() {
+		return name +" "+ life + " PV " + attack+ " PA " + weapon + " " + image + "|";
+	}
+	public void setName(String name) { this.name = name; } 
+
+	public String getName() { return name; } 
+
+	public void setAttack(int attack) { this.attack = attack; } 
+
+	public int getAttack() { return attack; } 
+
+	public void setLife(int life) { this.life = life; } 
+
+	public int getLife() { return life; } 
+
+	public void setWeapon(weapons weapon) { this.weapon = weapon; }
+
+	public weapons getWeapon() { return weapon; }  
+	
+	public void setHealth(int healthPoints) { this.healthPoints = healthPoints; } 
+
+	public int getHealth() { return healthPoints; } 
+	
+	public void setPower(int attackPower) { this.attackPower = attackPower; } 
+
+	public int getPower() { return attackPower; } 
+}

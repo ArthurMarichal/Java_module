@@ -1,0 +1,34 @@
+package characters;
+
+public class mage {
+
+	private int life;
+	private int attack;
+	private String image;
+	private String name;
+	private spells spell;
+
+	public mage() {
+		super();
+	}
+
+	public mage(String name) {
+		super();
+		this.name = name;
+	}
+
+	public mage( String name, int life, int attack,spells spell, String image) {
+		super();
+		this.life = life;
+		this.attack = attack;
+		this.image = image;
+		this.name = name;
+		this.spell = spell;
+	}
+
+	public String toString() {
+		return name +" "+ life + " PV " + attack+ " PA " + spell + " " + image + "|";
+	}
+	public void setName(String name) { this.name = name; } 
+	public String getName() { return name; } 
+}

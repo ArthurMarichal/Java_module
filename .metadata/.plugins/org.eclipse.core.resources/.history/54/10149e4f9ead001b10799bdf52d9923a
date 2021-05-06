@@ -1,0 +1,13 @@
+package characters;
+public class spells{
+	
+	String spell;
+	int damage;
+	public void spell(String spell, int damage) {
+		this.spell = spell;
+		this.damage = damage;
+	}
+	
+	
+	
+}

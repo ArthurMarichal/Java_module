@@ -1,0 +1,17 @@
+2021-05-03 09:28:49,282 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2021-05-03 09:29:31,498 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-03 09:32:59,575 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @213090ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-05-03 09:32:59,666 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.37.v20210219; built: 2021-02-23T06:49:41.320Z; git: 27afab2bd37780d179836e313e0fe11bc4fa0ce9; jvm 11.0.11+9-Ubuntu-0ubuntu2.20.04
+2021-05-03 09:32:59,679 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2021-05-03 09:32:59,679 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2021-05-03 09:32:59,680 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+2021-05-03 09:32:59,698 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1fd7093d{/help,null,AVAILABLE}
+2021-05-03 09:32:59,703 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@32e6545b{HTTP/1.1, (http/1.1)}{127.0.0.1:32863}
+2021-05-03 09:32:59,703 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @213220ms
+2021-05-03 09:32:59,704 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2021-05-03 16:30:35,002 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@32e6545b{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2021-05-03 16:30:35,003 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2021-05-03 16:30:35,011 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@1fd7093d{/help,null,STOPPED}
+2021-05-04 08:40:04,917 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-05 10:02:31,523 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-05-06 08:35:01,221 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

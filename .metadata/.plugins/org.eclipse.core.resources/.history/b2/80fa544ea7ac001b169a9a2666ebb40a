@@ -1,0 +1,26 @@
+package characters;
+public class war{
+		
+		private int life;
+		private int attack;
+		private String image;
+		private String name ;
+
+		public war() {
+			super();
+		}
+
+		public war(String name) {
+			super();
+			this.name = name;
+		}
+
+		public war(int life, int attack, String image, String name) {
+			super();
+			this.life = life;
+			this.attack = attack;
+			this.image = image;
+			this.name = name;
+		}
+		
+}

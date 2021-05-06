@@ -1,0 +1,28 @@
+package characters;
+
+public class attack {
+
+	private String name;
+	private int power;
+	
+	public String toString() {
+		return name+ " " + power;
+	}
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	public void setPower(int power)
+	{
+		this.power = power;
+	}
+	public int getPower()
+	{
+		return power;
+	}
+}

@@ -1,0 +1,80 @@
+package characters;
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
+ public class menu {
+	 
+	 Scanner scan;
+	 String value;
+	 static boolean exit = false;
+	 List<mage> mageCharacters = new ArrayList<>();
+	 List<war> warCharacters = new ArrayList<>();
+	 
+	 
+	 
+	 menu(){
+		 this.scan = new Scanner(System.in);
+	 }
+	 
+	 public static void main(String[] args) {
+		 
+		 menu m = new menu();
+		 
+		while(exit==false) { 
+		 m.display();
+		 }
+	 }
+
+
+	private void display() {
+		System.out.println("Bonjour et bienvenue dans le nouveau jeu : D&G");
+		System.out.println(warCharacters);
+		System.out.println(mageCharacters);
+		System.out.println("Faites votre choix : 1 pour un guerrier ou 2 pour un mage.");
+		int characterChoice = scan.nextInt();
+		
+		if(characterChoice == 1 ) {
+			System.out.println("Vous avez choisi un guerrier !");
+			scan.nextLine();
+			System.out.println("Quel est son nom ?");
+			String name = scan.nextLine();
+			war w1 = new war(name, 10, 8, "Beau");
+			System.out.println("Votre guerrier : " + w1);
+			characters.add(w1);
+			System.out.println("Vous désirez changer son nom ? 1 pour oui, 2 pour non.");
+			int nameChoice = scan.nextInt();
+			if(nameChoice==1) {
+				scan.nextLine();
+				System.out.println("Nouveau nom :");
+				value = scan.nextLine();
+				war w2 = new war(value, 10, 8, "Beau");
+				System.out.println("Votre guerrier : " + w2);
+				characters.add(w1);
+			}
+		} else if (characterChoice == 2) {
+			System.out.println("Vous avez choisi un mage !");
+			scan.nextLine();
+			System.out.println("Quel est son nom ?");
+			String name = scan.nextLine();
+			mage m1 = new mage(name, 10, 12, "Sensuel");
+			System.out.println("votre mage : " + m1);
+			characters.add(m1);
+			System.out.println("Vous désirez changer son nom ? 1 pour oui, 2 pour non.");
+			int nameChoice = scan.nextInt();
+			if(nameChoice==1) {
+				scan.nextLine();
+				System.out.println("Nouveau nom :");
+				value = scan.nextLine();
+				mage m2 = new mage(value, 10, 12, "Sensuel");
+				System.out.println("Votre mage : " + m2);
+				characters.add(name);
+			}
+		}
+		System.out.println("Désirez-vous quittez le jeu ? 1 pour oui, 2 pour non.");
+		int exitChoice = scan.nextInt();
+		if(exitChoice == 1) {
+			exit = true;
+		}
+		
+	}
+ }
