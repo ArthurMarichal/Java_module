@@ -1,0 +1,13 @@
+package characters;
+public class weapons extends weaspell{
+	
+	public String toString(){
+		return "Son arme : " + getWeapon() + ", Ses dégats : " + getDamage();
+	}
+	public weapons(String weapon, int damage) {
+		super(weapon, damage);
+	
+	}
+	
+	
+}

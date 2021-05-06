@@ -1,0 +1,35 @@
+package characters;
+public class war extends characters{
+//Initialisations des varibles.	
+	private weapons weapon;
+
+//Constructeurs
+	/**
+	 * 
+	 * @param attackPower
+	 * @param healthPoints
+	 * @param name
+	 * @param weapon
+	 */
+	public war(int attackPower, int healthPoints, String name, weapons weapon) {
+		super(attackPower, healthPoints, name);
+		// TODO Auto-generated constructor stub
+		this.weapon = weapon;
+	}
+
+
+	public String toString()
+	{
+		return getName() + " " + getHealth() + " PV " + getPower() + " PA " + getWeapon();
+	}
+	//Getter et Setter.
+	
+
+	public void setWeapon(weapons weapon) { this.weapon = weapon; }
+
+	public weapons getWeapon() { return weapon; } 
+	
+
+
+
+}

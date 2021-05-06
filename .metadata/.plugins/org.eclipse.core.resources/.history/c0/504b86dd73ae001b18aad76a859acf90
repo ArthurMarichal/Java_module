@@ -1,0 +1,12 @@
+package characters;
+public class Spells extends weaspell{
+
+	
+	public String toString(){
+		return "Son sort : " + getWeapon() + ", Ses dégats : " + getDamage();
+	}
+	public Spells(String weapon, int damage) {
+		super(weapon, damage);
+	
+	}
+}

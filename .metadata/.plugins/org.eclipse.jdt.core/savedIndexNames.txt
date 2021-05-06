@@ -2,5 +2,4 @@ INDEX VERSION 1.131+/home/arthur/Bureau/Arthur/Java/.metadata/.plugins/org.eclip
 646308851.index
 3693995064.index
 2807049395.index
-669912678.index
 736068086.index

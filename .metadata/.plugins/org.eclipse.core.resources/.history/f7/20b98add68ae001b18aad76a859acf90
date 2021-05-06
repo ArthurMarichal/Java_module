@@ -1,0 +1,12 @@
+package characters;
+
+public class weaspell {
+	//Variables
+	String weapon;
+	int damage;
+	//Constructeur
+	public weaspell(String weapon, int damage) {
+		this.weapon = weapon;
+		this.damage = damage;
+	}
+	}

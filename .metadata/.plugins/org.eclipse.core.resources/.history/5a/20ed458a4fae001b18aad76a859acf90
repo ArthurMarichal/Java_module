@@ -1,0 +1,27 @@
+package characters;
+public class mage extends characters{
+//Initialisations des varibles.	
+	private spells spell;
+
+//Constructeurs
+	public mage(int attackPower, int healthPoints, String name, spells spell) {
+		super(attackPower, healthPoints, name);
+		// TODO Auto-generated constructor stub
+		this.spell = spell;
+	}
+
+
+	public spells toString() {
+		return getSpell();
+	}
+	//Getter et Setter.
+	
+
+	public void setSpell(spells spell) { this.spell = spell; }
+
+	public spells getSpell() { return spell; } 
+	
+
+
+
+}
