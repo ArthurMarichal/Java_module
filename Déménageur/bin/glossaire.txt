@@ -1,0 +1,25 @@
+Glossaire de la syntaxe utilisées.
+
+ - Class : Tout ce qui concerne un objet : constructeur, getter/setter, methode toString, les  variables qui lui sont propres.
+ 
+ - Public/Private/Protected : Définis la portée et l'accès des Class/Variables/methodes/getter/setter.
+ 
+ - String/int/boolean/double,etc : Définis le type d'une variable.
+ 
+ - do,while/for/foreach : Permet de bouclé sur beaucoup de chose en fonction de son placement/utilisation.
+ 
+ - try/catch/throws : Gestion des exceptions.
+ 
+ - if/else/etc : Donne des conditions pour savoir quand appliqué le code ou non.
+ 
+ - import exemple.exemple : importation d'un package de fonction/méthode déja definis, prête à l'emploi.
+ 
+ - Random random = new Random(); : Utilisaton de la fonction de création de nombres alétatoires.
+ 
+ - w.setHealth(healthPoints); utilisation d'un setter.
+ 
+ - List<Mage> mageCharacters = new ArrayList<>(); : Création d'un tableau dans lequel il y aura les personnage de type Mage.
+ 
+ - mageCharacters.add(m2); Ajout du ersonnage créer au tableau associer.
+ 
+ - System.out.println("Quelque chose" : Imprime dans la console ce qui lui a été demandé.

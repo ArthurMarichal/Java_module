@@ -1,7 +1,0 @@
-package characters;
-public class mage{
-	public static void main(String[] args) {
-		
-		
-	}	
-}
