@@ -1,6 +1,6 @@
 package characters;
 
-public class Weaspell {
+abstract class Weaspell {
 	//Variables
 	String weapon;
 	int damage;

@@ -1,6 +1,6 @@
 package characters;
 
-public class Characters {
+abstract class Characters {
 
 	private int attackPower;
 	private int healthPoints;
